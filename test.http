@@ -1,0 +1,17 @@
+GET https://jsonplaceholder.typicode.com/posts/1
+
+###
+
+POST https://kuban-online.ru/api/check_patient/
+Content-Type: application/json
+
+{
+    "patient_form-first_name": "имя",
+    "patient_form-last_name": "фамилия",
+    "patient_form-birthday": "2020-01-01T00:00:00.000Z",
+    "patient_form-clinic_id": "403"
+}
+
+###
+
+GET http://127.0.0.1:8000/cats/
